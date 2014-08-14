@@ -13,6 +13,8 @@
 		3CDDD574199A0E67009F767F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDD572199A0E67009F767F /* Main.storyboard */; };
 		3CDDD576199A0E67009F767F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDDD575199A0E67009F767F /* Images.xcassets */; };
 		3CDDD582199A0E67009F767F /* NZ_MPsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDD581199A0E67009F767F /* NZ_MPsTests.swift */; };
+		3CF51A3B199ABECA009FDD94 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF51A3A199ABECA009FDD94 /* Alamofire.swift */; };
+		3CF51A3C199ABECA009FDD94 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF51A3A199ABECA009FDD94 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		3CDDD57B199A0E67009F767F /* NZ MPsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NZ MPsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDDD580199A0E67009F767F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CDDD581199A0E67009F767F /* NZ_MPsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZ_MPsTests.swift; sourceTree = "<group>"; };
+		3CF51A3A199ABECA009FDD94 /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Alamofire/Source/Alamofire.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 		3CDDD569199A0E67009F767F /* NZ MPs */ = {
 			isa = PBXGroup;
 			children = (
+				3CF51A3A199ABECA009FDD94 /* Alamofire.swift */,
 				3CDDD56C199A0E67009F767F /* AppDelegate.swift */,
 				3CDDD56E199A0E67009F767F /* MasterViewController.swift */,
 				3CDDD570199A0E67009F767F /* DetailViewController.swift */,
@@ -213,6 +217,7 @@
 			files = (
 				3CDDD571199A0E67009F767F /* DetailViewController.swift in Sources */,
 				3CDDD56F199A0E67009F767F /* MasterViewController.swift in Sources */,
+				3CF51A3B199ABECA009FDD94 /* Alamofire.swift in Sources */,
 				3CDDD56D199A0E67009F767F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF51A3C199ABECA009FDD94 /* Alamofire.swift in Sources */,
 				3CDDD582199A0E67009F767F /* NZ_MPsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +405,7 @@
 				3CDDD587199A0E67009F767F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CDDD588199A0E67009F767F /* Build configuration list for PBXNativeTarget "NZ MPsTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +414,7 @@
 				3CDDD58A199A0E67009F767F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
